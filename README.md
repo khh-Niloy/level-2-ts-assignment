@@ -105,6 +105,8 @@ type User = [string, number]
 
 But interface is only for object shapes.
 
+---
+
 # What is the use of the keyof keyword in TypeScript? Provide an example.
 
 What is keyof?
