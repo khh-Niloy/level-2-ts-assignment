@@ -92,15 +92,3 @@ async function squareAsync(num: number): Promise<number> {
     }, 1000);
   });
 }
-
-{
-  const user = {
-    name: "niloy",
-    age: 12,
-  };
-  function getProperty<T, K extends keyof T>(object: T, key: K): T[K] {
-    return object[key];
-  }
-
-  console.log(getProperty(user, "name"));
-}
